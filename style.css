@@ -1,0 +1,54 @@
+      *{
+         margin: 0;
+         font-family: 'Delicious Handrawn', cursive;
+      }
+      body{
+         background-color: black;
+      }
+      #containerr{
+          margin-top: 3vh;
+      }
+      #pi1,#pi2{
+         width: 150px;
+      }
+      #bttn1,#bttn2{
+         color: white;
+         letter-spacing: 2px;
+         width: 140px;
+         padding: 8px 0;
+         border-radius: 5px;
+         margin: 10px 0 0 5px;
+         border: none;
+         font-size: 1.25rem;
+         font-weight: bold;
+         background-image: linear-gradient(to right, rgb(26, 95, 100),rgb(65, 64, 131));
+      }
+      #bttn1:hover,#bttn2:hover{
+         transform: scale(1.05);
+      }
+      #declare{
+         color: white;
+         font-size: 2rem;
+         font-weight: bold;
+         letter-spacing: 2px;
+      }
+      .anim{
+         width: 200px;
+         max-height: 200px;
+         animation: dhiraja 4s infinite;
+         animation-direction: alternate;
+         animation-timing-function: linear;
+      }
+      @keyframes dhiraja{
+         0%{margin-left: 4vw;}
+         100%{margin-left: 80vw;}
+      }
+      #h11{
+         color: white;  
+         margin-top: 5vh;
+         font-size: 3.8rem;
+      }
+      #milkyImg{
+         width: 50px;
+      }
+   
